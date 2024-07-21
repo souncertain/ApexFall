@@ -1,0 +1,565 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 7975 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/unity/unity projects/NewApex/Celeste-Movement-master
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61673
+Successfully changed project path to: D:/unity/unity projects/NewApex/Celeste-Movement-master
+D:/unity/unity projects/NewApex/Celeste-Movement-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10812] Host "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 2273827979 [EditorId] 2273827979 [Version] 1048832 [Id] WindowsEditor(7,uncertain_book) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10812] Host "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 2273827979 [EditorId] 2273827979 [Version] 1048832 [Id] WindowsEditor(7,uncertain_book) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 13.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/unity projects/NewApex/Celeste-Movement-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3987 MB
+    Driver:   31.0.101.1999
+Initialize mono
+Mono path[0] = 'D:/unity/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005207 seconds.
+- Loaded All Assemblies, in  0.702 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.401 seconds
+Domain Reload Profiling: 1103ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (198ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (402ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.832 seconds
+Refreshing native plugins compatible for Editor in 7.61 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.117 seconds
+Domain Reload Profiling: 1949ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1118ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (850ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (508ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 7.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (1.4 MB). Loaded Objects now: 3436.
+Memory consumption went from 137.1 MB to 135.8 MB.
+Total: 9.150300 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.306400 ms MarkObjects: 8.199400 ms  DeleteObjects: 0.375000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 960909.088343 seconds.
+  path: Assets/Scripts/New Folder/PlayerMove.cs
+  artifactKey: Guid(f26da7d4bdc7f9e48b5f0c4f76b56fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Folder/PlayerMove.cs using Guid(f26da7d4bdc7f9e48b5f0c4f76b56fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55148edbfc4e51097aa811cf66e25b4f') in 0.002380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 5.93 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.346 seconds
+Domain Reload Profiling: 2106ms
+	BeginReloadAssembly (418ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1347ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (825ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (252ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (1.3 MB). Loaded Objects now: 3439.
+Memory consumption went from 128.1 MB to 126.8 MB.
+Total: 8.838100 ms (FindLiveObjects: 0.337800 ms CreateObjectMapping: 0.635900 ms MarkObjects: 7.364300 ms  DeleteObjects: 0.498200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116.075333 seconds.
+  path: Assets/Prefab/Grid_Front.prefab
+  artifactKey: Guid(606c07f26725f514b96a47ccb6c8cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grid_Front.prefab using Guid(606c07f26725f514b96a47ccb6c8cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5afd3342bdb9e59c618727859d68160') in 0.177450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefab/GridBack.prefab
+  artifactKey: Guid(8dfb7edec704f0046ae5c3b9cbca593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/GridBack.prefab using Guid(8dfb7edec704f0046ae5c3b9cbca593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c4d17ba8332721801546da3cbe9e3c') in 0.040969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 1.237725 seconds.
+  path: Assets/Materials/Particle.mat
+  artifactKey: Guid(22e403e0600918e42ac044155dd76068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Particle.mat using Guid(22e403e0600918e42ac044155dd76068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c90b42ad8632cf2ed55f02cf5b4835f') in 0.171567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.957825 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_0.asset
+  artifactKey: Guid(6a41f927f1fe8004798933939521ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_0.asset using Guid(6a41f927f1fe8004798933939521ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1ff7e77fb1caae7ecf29f9dfdf2e5b') in 0.023119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_10.asset
+  artifactKey: Guid(a0b3b24da2476b9419c302acfb97516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_10.asset using Guid(a0b3b24da2476b9419c302acfb97516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbcd5cfd2cc459744103b10fc470581') in 0.012048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_3.asset
+  artifactKey: Guid(0660b6b57aa829b46ad2dfbf774ba86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_3.asset using Guid(0660b6b57aa829b46ad2dfbf774ba86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf005508e3dc1661c88dabbafd5fd253') in 0.016835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_4.asset
+  artifactKey: Guid(52b434ef7815caf46af2c19c9c3b2200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_4.asset using Guid(52b434ef7815caf46af2c19c9c3b2200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3195ee7bea68c288808bcc2f1e3f8df7') in 0.017319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_13.asset
+  artifactKey: Guid(d175506509174a54a905cced9344d4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_13.asset using Guid(d175506509174a54a905cced9344d4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc31d26330ac237d14f19755c0688efc') in 0.018140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_9.asset
+  artifactKey: Guid(6cb7b95721d246a4d873fed53f5e80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_9.asset using Guid(6cb7b95721d246a4d873fed53f5e80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1769e2a38efe39633c7a4a0aa1041e1a') in 0.019860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_18.asset
+  artifactKey: Guid(68b13d33961f1a74f84c87219f8448fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_18.asset using Guid(68b13d33961f1a74f84c87219f8448fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb96679152df3fea5cf924de5f29d82') in 0.013285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_20.asset
+  artifactKey: Guid(d4ffae9386ed84542a8e4c824cd06ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_20.asset using Guid(d4ffae9386ed84542a8e4c824cd06ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c16e365091231ad0f4138f20b72ce50') in 0.023799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_19.asset
+  artifactKey: Guid(053343d6144276943897c239e472cc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_19.asset using Guid(053343d6144276943897c239e472cc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7c086d8e2e2b47840f20fdc1859db6') in 0.015449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_23.asset
+  artifactKey: Guid(c5ed731eedca9864899deb4f1e6ebaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_23.asset using Guid(c5ed731eedca9864899deb4f1e6ebaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4187930329155bf6d2226f8d942e4e44') in 0.015938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_24.asset
+  artifactKey: Guid(6e21fe4e3020dae469e91b5b6f1865a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_24.asset using Guid(6e21fe4e3020dae469e91b5b6f1865a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6147a7237f722f5f7ed7b4d2c02927d') in 0.013632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_2.asset
+  artifactKey: Guid(27ba02b59be412b44809485b334e4ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_2.asset using Guid(27ba02b59be412b44809485b334e4ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf326c9a3150473f0f0d86ee66d389e') in 0.014723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_8.asset
+  artifactKey: Guid(9536c80b352289346a8643b4a348795b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_8.asset using Guid(9536c80b352289346a8643b4a348795b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2fa148c238d598776554d8e849cebd') in 0.023448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_33.asset
+  artifactKey: Guid(f9089b401dbb2154dacaedb79b6209d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_33.asset using Guid(f9089b401dbb2154dacaedb79b6209d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667775e9c1ae4e8e0d7b742a07461313') in 0.021481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_37.asset
+  artifactKey: Guid(c9bdb8b4e513686449672108e8c136fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_37.asset using Guid(c9bdb8b4e513686449672108e8c136fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef75306919e9d91b185cd8c45a155ea') in 0.020437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_36.asset
+  artifactKey: Guid(62cb273c1341ef442bad56c0519440c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_36.asset using Guid(62cb273c1341ef442bad56c0519440c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe8ed393a63a42de82c0719825a590c') in 0.007734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_35.asset
+  artifactKey: Guid(1f4b4081db9217d4a82905e2c8540cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_35.asset using Guid(1f4b4081db9217d4a82905e2c8540cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934b2b004700c251ee04df8e45ee346e') in 0.023092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_38.asset
+  artifactKey: Guid(6ad06687382240c4593116937f7e902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_38.asset using Guid(6ad06687382240c4593116937f7e902e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14d26a7b859e35bc91ef817a06a9594') in 0.009259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_1.asset
+  artifactKey: Guid(6a23ffc8310a2f549b613b462f841799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_1.asset using Guid(6a23ffc8310a2f549b613b462f841799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da88072ad0c2dcc36758d39b655111d7') in 0.029150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_28.asset
+  artifactKey: Guid(2a22b4629cf710e43986a0104baeae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_28.asset using Guid(2a22b4629cf710e43986a0104baeae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3e7079549352814af378aeb28e315f') in 0.022744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_39.asset
+  artifactKey: Guid(5f9d3dc2c7fda4e40afec9ca6945d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_39.asset using Guid(5f9d3dc2c7fda4e40afec9ca6945d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05beefb7349deb7dfb6e9aeae04e8403') in 0.014553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_14.asset
+  artifactKey: Guid(c8f08c81a5e5e654fbfe07b4156d83a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_14.asset using Guid(c8f08c81a5e5e654fbfe07b4156d83a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71aea1dd80c29778d479d7b4a8d20713') in 0.025266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_22.asset
+  artifactKey: Guid(c46782fbf5e89554591a8a244beae531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_22.asset using Guid(c46782fbf5e89554591a8a244beae531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9081d12c3cf2a054d27151fa21fe12b3') in 0.023188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_29.asset
+  artifactKey: Guid(6e145ae757c0d5e4581b52048246ccdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_29.asset using Guid(6e145ae757c0d5e4581b52048246ccdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fda2e8ebdf5d25fc67e866a4bbf4e63') in 0.025774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_15.asset
+  artifactKey: Guid(2a60790ee90d02e4584344188cea48ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_15.asset using Guid(2a60790ee90d02e4584344188cea48ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6e0dc176c097f5bb741e388b87ada8') in 0.026388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_17.asset
+  artifactKey: Guid(23f5ec2c2c6d6464a8a3634ef018fe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_17.asset using Guid(23f5ec2c2c6d6464a8a3634ef018fe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831ac68d7539facd32d16db62676e892') in 0.025178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_25.asset
+  artifactKey: Guid(d3ecbfdf5255e804daea8ca8ddf59b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_25.asset using Guid(d3ecbfdf5255e804daea8ca8ddf59b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95e46d952d45b2548d849f0e92d231f') in 0.023683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_34.asset
+  artifactKey: Guid(3b6dc57fb998e3f448964808f4b4f7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_34.asset using Guid(3b6dc57fb998e3f448964808f4b4f7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7647a3d980ba4d5974034e25e8c78225') in 0.023131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_27.asset
+  artifactKey: Guid(645324024aae6eb47abe73f72af26647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_27.asset using Guid(645324024aae6eb47abe73f72af26647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4951f823d9734d9ebfa7bc531f9524ae') in 0.021394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_11.asset
+  artifactKey: Guid(a22e01e6d48399c4da7af77eb17b702b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_11.asset using Guid(a22e01e6d48399c4da7af77eb17b702b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a1bd1a4c7f7ae77b8f3ce66b0dbb60') in 0.026723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_6.asset
+  artifactKey: Guid(8a5fc9c29469d5749b274d2c4bc79077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_6.asset using Guid(8a5fc9c29469d5749b274d2c4bc79077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe466e523fa366a32fc33391df78cff') in 0.020825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_7.asset
+  artifactKey: Guid(426eba5720f47eb42b00b40b4085ce57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_7.asset using Guid(426eba5720f47eb42b00b40b4085ce57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d73a6ea3bf2e00740d7118e7138d0a') in 0.025326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_12.asset
+  artifactKey: Guid(3196b299881fb544d92ec6a6cb2c7927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_12.asset using Guid(3196b299881fb544d92ec6a6cb2c7927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd409ba227791768762539c0fbab0558e') in 0.018637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilemap/MixJam_Tileset_5.asset
+  artifactKey: Guid(b8e44fc3469a075458f3cd0a3982f858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/MixJam_Tileset_5.asset using Guid(b8e44fc3469a075458f3cd0a3982f858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbec2aca3ab2929f52a9a7c98f8e8a3') in 0.016075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.830773 seconds.
+  path: Assets/настройки1.png
+  artifactKey: Guid(e6057909ffdce7a4a80c90a3b427792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/настройки1.png using Guid(e6057909ffdce7a4a80c90a3b427792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f0f792c2d85b225f751a506278ccda') in 0.067241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
